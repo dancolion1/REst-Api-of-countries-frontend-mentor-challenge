@@ -1,0 +1,42 @@
+.card {
+    width: 257px;
+    height: 320px;
+    background-color: var(--card-color);
+    display: inline-block;
+    margin: 40px 40px 10px 40px;
+    border-radius: 5px;
+  }
+  
+  .card:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .card img {
+    width: 257px;
+    height: 150px;
+    border-radius: 5px 5px 0 0;
+  }
+  
+  .country-info {
+    padding: 0 20px 0 15px;
+  }
+  
+  .country-name {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 14px;
+    padding: 20px;
+    color: var(--text-color);
+  }
+  
+  .country-population,
+  .country-region,
+  .country-capital {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 12px;
+    padding: 5px;
+    color: var(--text-color);
+  }

@@ -1,0 +1,23 @@
+.upper-div {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .country-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .upper-div {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .country-cards {
+      justify-content: center;
+      align-items: center;
+    }
+  }

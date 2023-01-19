@@ -1,0 +1,19 @@
+:root {
+  --nav-color: hsl(0, 0%, 100%);
+  --card-color: hsl(0, 0%, 100%);
+  --bg-color: hsl(0, 0%, 98%);
+  --text-color: hsl(200, 15%, 8%);
+  --font-family: "Manrope", sans-serif;
+}
+
+.dark-theme {
+  --nav-color: hsl(209, 23%, 22%);
+  --card-color: hsl(209, 23%, 22%);
+  --bg-color: hsl(207, 26%, 17%);
+  --text-color: hsl(0, 0%, 100%);
+  --font-family: "Manrope", sans-serif;
+}
+
+body {
+  background-color: var(--bg-color);
+}
